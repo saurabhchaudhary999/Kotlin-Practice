@@ -4,7 +4,7 @@ fun main()
 
 
 }
-fun hello(age:Int, vararg name:String)
+fun hello(age:Int, vararg name:String) //In function we can give multiple values to parameter using vararg.
 {
     println("Hello your age is $age and your name is $name")//This will return information of array
     println("Hello your age is $age and your names are:")
