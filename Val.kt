@@ -1,6 +1,7 @@
 fun main() {
  val myname = "Saurabh C" // By Val you can make read only varibale
   println(myname)
+  println(myname.length)
  println(myname::class) // you will type of that variable
 
  val surname: String ="Chaudhary"
